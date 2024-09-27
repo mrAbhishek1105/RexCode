@@ -1,0 +1,70 @@
+.box{
+width: 98.4vw;
+/* border: 2px solid red; */
+display: flex;
+}
+
+.left-box{
+    width: 49.2vw;
+    display: flex;
+    flex-direction: column;
+    & >button{
+        align-self: flex-end;
+    }
+    & >.settings{
+        display: flex;
+        margin: 0 1rem;
+        justify-content: space-around;
+
+        & >.selector{
+            color: #ce4b4b;
+        }
+    }
+}
+.right-box{
+    width: 49.2vw;
+    margin-left: 10px;
+}
+
+.right-box >div {
+    display: flex;
+    justify-content: center;
+    min-height: 50%;
+    border-bottom: 2px solid blue;
+}
+
+.inputT , .outputT{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+
+    & >button{
+        height: 2.5rem;
+        align-items: center;
+    }
+    & >p{
+        font-size: 1rem;
+        font-weight: 700;
+        border-bottom: 2px dotted red
+    }
+}
+
+.inputBox , .outputBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+textarea{
+    width: 90%;
+    height: 100%;
+    resize: none;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0.5rem;
+}
+
