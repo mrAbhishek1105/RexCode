@@ -37,7 +37,9 @@ npm start
 cd ../server
 node index.js
 ```
->[!IMPORTANT](this website get inspired from geeksforgeeks.org)
+> [!IMPORTANT]
+> this website get inspired from geeksforgeeks.org
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
