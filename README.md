@@ -18,8 +18,8 @@ An online code compiler built with React, Monaco Editor, and Node.js that allows
 
 #### Clone the repository:
 ```bash
-git clone https://github.com/username/rexcode-online-compiler.git
-cd rexcode-online-compiler
+git clone https://github.com/mrAbhishek1105/RexCode.git
+cd RexCode
 
 # Install frontend dependencies
 cd client
